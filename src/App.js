@@ -1,9 +1,10 @@
 import './App.css';
+import Board from './components/tictactoe/Board';
 
 function App() {
   return (
     <div className="App">
-      <h1 id='testlol'>kekw</h1>
+      <Board />
     </div>
   );
 }
